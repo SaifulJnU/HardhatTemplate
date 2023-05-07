@@ -24,3 +24,5 @@ In the command line write
 ```npx hardhat run scripts/deploy.js```
 
 
+# If error occers for Cannot find module '@nomicfoundation/hardhat-toolbox'
+Solution: ```npm install --save-dev @nomicfoundation/hardhat-toolbox```
